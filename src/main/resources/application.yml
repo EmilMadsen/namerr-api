@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/namerrapi
+    username: username
+    password: password
+  jpa:
+    database: POSTGRESQL
+    generate-ddl: true
+  http:
+    converters:
+      preferred-json-mapper: gson
